@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
   
-  const title = "Welcome to the new blog"
+  const title = "Welcome to the new blog" ;
   const likes = 50 ;
 
   return (
@@ -10,6 +10,9 @@ function App() {
       <div className='content'>
         <h1>{title}</h1>
         <p>Liked {likes} </p>
+
+        <p>{10}</p>
+        <p>{"Hello NInjas"}</p>
       </div>
     </div>
   )
