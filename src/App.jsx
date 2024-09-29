@@ -13,6 +13,7 @@ function App() {
 
         <p>{10}</p>
         <p>{"Hello NInjas"}</p>
+        <p>{ [1, 2, 3, 4] }</p>
       </div>
     </div>
   )
