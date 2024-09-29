@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   
   const title = "Welcome to the new blog"
-  const likes = 50
+  const likes = 50 ;
 
   return (
     <div className='App'>
