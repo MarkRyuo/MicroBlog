@@ -4,10 +4,10 @@
 
 const Home = () => {
     
-    const name = "Moda" ;
+    let name = "Moda" ;
 
     const handleClick = () => {
-        
+        name = "Ryuoda" ;
     }
 
     return (
