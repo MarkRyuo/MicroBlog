@@ -1,12 +1,15 @@
-
+import { useState } from "react";
 
 //* (e) Stand for events
 
 const Home = () => {
     
+    const [name, setname] = useState("Moda")
+
     // let name = "Moda" ;
 
     const handleClick = () => {
+        setname("Ryuoda")
     }
 
     return (
