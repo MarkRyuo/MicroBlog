@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Home = () => {
     
-    const [name, setname] = useState("Moda") //* Array destructure 
+    const [name, setname] = useState("Moda") //* Array destructure, this is reactive 
 
     // let name = "Moda" ;
 
