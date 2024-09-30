@@ -3,10 +3,6 @@ import { useState } from "react";
 //* (e) Stand for events
 
 const Home = () => {
-    
-    const [name, setname] = useState("Moda") //* Array destructure, this is reactive 
-
-    // let name = "Moda" ;
 
     const handleClick = () => {
         setname("Ryuoda") ;
