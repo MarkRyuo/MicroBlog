@@ -4,7 +4,7 @@
 
 const Home = () => {
     
-    let name = "Moda" ;
+    // let name = "Moda" ;
 
     const handleClick = () => {
     }
