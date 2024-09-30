@@ -1,13 +1,12 @@
 import { useState } from "react";
 
-//* (e) Stand for events
 
 const Home = () => {
 
     const [blog, setblogs] = useState([
         { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur",  author: "Moda", id:"b1"},
-        { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur", author: "Moda", id: "b2" },
-        { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur", author: "Moda", id: "b3" },
+        { title: "Beyond to the Infinite: Start", body: "Lorem ipsum dolor sit amet, consectetur", author: "Moda", id: "b2" },
+        { title: "Beyond to the Infinite: End ", body: "Lorem ipsum dolor sit amet, consectetur", author: "Moda", id: "b3" },
     ])
 
     const handleClick = () => {
