@@ -17,7 +17,7 @@ function App() {
         <p>{ [1, 2, 3, 4] }</p>
         <p>{ Math.random()* 20}</p>
 
-        <a href={link}></a>
+        <a href={link}>google</a>
       </div>
     </div>
   )
