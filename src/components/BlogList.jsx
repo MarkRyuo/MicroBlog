@@ -1,7 +1,11 @@
 
 
 const BlogList = () => {
-    return (  );
+    return (
+        <>
+            
+        </>
+    );
 }
  
 export default BlogList;
