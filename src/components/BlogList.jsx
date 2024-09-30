@@ -1,6 +1,8 @@
 
 
-const BlogList = () => {
+const BlogList = ({blogs, title}) => {
+
+
     return (
         <div className="blog-list">
             {blogs.map((blog) => (
