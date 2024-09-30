@@ -2,8 +2,8 @@
 
 const Home = () => {
 
-    const handleClick = () => {
-        console.log("Hello, Terminal")
+    const handleClick = (e) => {
+        console.log("Hello, Terminal" + e)
     }
 
     const handleClickAgain = (name) => { 
