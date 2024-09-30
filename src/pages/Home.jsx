@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Home = () => {
     
-    const [name, setname] = useState("Moda")
+    const [name, setname] = useState("Moda") //* Array destructure 
 
     // let name = "Moda" ;
 
