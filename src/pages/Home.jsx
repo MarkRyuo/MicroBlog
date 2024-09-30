@@ -4,6 +4,8 @@ import { useState } from "react";
 
 const Home = () => {
 
+    const [blog, setblogs] = useState()
+
     const handleClick = () => {
         
     }
