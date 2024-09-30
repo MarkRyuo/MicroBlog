@@ -3,7 +3,8 @@ import { useState } from "react";
 
 const Home = () => {
 
-    //* obj inside on array - Destructure the obj
+    //* obj inside on array - Destructure the object
+    //* id must be unique 
     const [blog, setblogs] = useState([
         { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur",  author: "Moda", id:"b1"},
         { title: "Beyond to the Infinite: Start", body: "Lorem ipsum dolor sit amet, consectetur", author: "Ryuoda", id: "b2" },
@@ -17,6 +18,8 @@ const Home = () => {
     return (
         <div className="home">
             <h2>Homepage</h2>
+
+
         </div>
     );
 }
