@@ -16,15 +16,6 @@ const Home = () => {
         <div className="home">
             <h2>Homepage</h2>
 
-            <div>
-                {blogs.map((blog) => (
-                    <div className="blog-preview" key={blog.id}>
-                        <h2>{blog.title}</h2>
-                        <p>{blog.body}</p>
-                        <p>{blog.author}</p>
-                    </div>
-                ))}
-            </div>
 
         </div>
     );
