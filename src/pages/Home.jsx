@@ -16,7 +16,7 @@ const Home = () => {
         <div className="home">
             <h2>Homepage</h2>
             <button type="button" onClick={handleClick}>Click Me</button>
-            <button type="button" onClick={handleClickAgain("Jhon Mark")}></button>
+            <button type="button" onClick={handleClickAgain("Jhon Mark")}>Click me Again</button>
         </div>
     );
 }
