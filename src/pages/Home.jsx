@@ -1,5 +1,7 @@
 
 
+//* (e) Stand for events
+
 const Home = () => {
 
     const handleClick = (e) => {
