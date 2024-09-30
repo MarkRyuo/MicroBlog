@@ -5,7 +5,9 @@ import { useState } from "react";
 const Home = () => {
 
     const [blog, setblogs] = useState([
-        {title: "Beyond to the Infinite", author: "Moda", id:"b1"}
+        { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur",  author: "Moda", id:"b1"},
+        { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur", author: "Moda", id: "b2" },
+        { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur", author: "Moda", id: "b3" },
     ])
 
     const handleClick = () => {
