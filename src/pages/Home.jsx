@@ -6,7 +6,7 @@ const Home = () => {
         console.log("Hello, Terminal" + e)
     }
 
-    const handleClickAgain = (name) => { 
+    const handleClickAgain = (name, e) => { 
         console.log("Hello " + name) ;
 
 
