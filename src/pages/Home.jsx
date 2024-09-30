@@ -7,7 +7,7 @@ const Home = () => {
     }
 
     const handleClickAgain = (name) => { 
-        console.log("Hello" + name)
+        console.log("Hello " + name)
 
 
     }
