@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
+import BlogList from "../components/BlogList";
 
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
     return (
         <div className="home">
             <h2>Homepage</h2>
-
+            <BlogList />
 
         </div>
     );
