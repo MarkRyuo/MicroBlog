@@ -9,7 +9,7 @@ const Home = () => {
     // let name = "Moda" ;
 
     const handleClick = () => {
-        setname("Ryuoda")
+        setname("Ryuoda") ;
     }
 
     return (
