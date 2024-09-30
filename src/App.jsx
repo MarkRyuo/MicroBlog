@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './pages/Home'
 import Navbar from './pages/Navbar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className='App'>
       <Navbar />
       <div className='content'>
+      <Home />
       </div>
     </div>
   )
