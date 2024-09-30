@@ -14,6 +14,7 @@ function App() {
         <p>{10}</p>
         <p>{"Hello NInjas"}</p>
         <p>{ [1, 2, 3, 4] }</p>
+        <p>{ Math.random()* 20}</p>
       </div>
     </div>
   )
