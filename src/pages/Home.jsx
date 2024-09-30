@@ -3,7 +3,7 @@
 const Home = () => {
 
     const handleClick = () => {
-        console.log("Hello World")
+        console.log("Hello, Terminal")
     }
 
     return (
