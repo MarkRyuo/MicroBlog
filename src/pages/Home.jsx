@@ -15,7 +15,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <BlogList blogs={blogs} title={"All Blogs"}/>
+            <BlogList blogs={blogs} title={"All Blogs"}/>  {/* Child - blogs={blogs} Passing in the child */}
 
         </div>
     );
