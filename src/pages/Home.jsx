@@ -7,7 +7,6 @@ const Home = () => {
     let name = "Moda" ;
 
     const handleClick = () => {
-        name = "Ryuoda" ;
     }
 
     return (
