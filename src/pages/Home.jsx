@@ -5,7 +5,7 @@ import { useState } from "react";
 const Home = () => {
 
     const handleClick = () => {
-        setname("Ryuoda") ;
+        
     }
 
     return (
