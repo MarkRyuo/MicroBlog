@@ -24,7 +24,7 @@ const Home = () => {
                     <div className="blog-preview" key={blog.id}>
                         <h2>{blog.title}</h2>
                         <p>{blog.body}</p>
-                        <p>{blog.}</p>
+                        <p>{blog.author}</p>
                     </div>
                 ))}
             </div>
