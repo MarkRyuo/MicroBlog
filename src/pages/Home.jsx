@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Home = () => {
 
-    //* obj inside on 
+    //* obj inside on array - Destructure the obj
     const [blog, setblogs] = useState([
         { title: "Beyond to the Infinite", body: "Lorem ipsum dolor sit amet, consectetur",  author: "Moda", id:"b1"},
         { title: "Beyond to the Infinite: Start", body: "Lorem ipsum dolor sit amet, consectetur", author: "Ryuoda", id: "b2" },
