@@ -3,8 +3,11 @@
 //* (e) Stand for events
 
 const Home = () => {
+    
+    const name = "Moda" ;
 
     const handleClick = () => {
+
     }
 
     return (
