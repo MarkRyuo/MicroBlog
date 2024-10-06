@@ -13,7 +13,7 @@ const Home = () => {
         { title: "Beyond to the Infinite: End ", body: "Lorem ipsum dolor sit amet, consectetur", author: "Niyari", id: 3 },
     ])
 
-    const handleDelete (id) => {
+    const handleDelete = (id) => {
         
     }
 
