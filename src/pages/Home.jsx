@@ -14,13 +14,13 @@ const Home = () => {
     ])
 
     const handleDelete = (id) => {
-        const newBlog = blogs.filter(blog => blog.id !== id)
-        setblogs(newBlog)
+        const newBlog = blogs.filter(blog => blog.id !== id) ;
+        setblogs(newBlog) ;
     }
 
     return (
         <div className="home">
-            <BlogList blogs={blogs} title={"All Blogs"} handleDelete={handleDelete()}/>  {/* Child - blogs={blogs} Passing in the child */}
+            <BlogList blogs={blogs} title={"All Blogs"} handleDelete={handleDelete}/>  {/* Child - blogs={blogs} Passing in the child */}
 
         </div>
     );
