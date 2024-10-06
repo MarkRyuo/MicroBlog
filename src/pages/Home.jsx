@@ -14,12 +14,12 @@ const Home = () => {
     ])
 
     const handleDelete = (id) => {
-        
+
     }
 
     return (
         <div className="home">
-            <BlogList blogs={blogs} title={"All Blogs"} handleDelete={}/>  {/* Child - blogs={blogs} Passing in the child */}
+            <BlogList blogs={blogs} title={"All Blogs"} handleDelete={handleDelete()}/>  {/* Child - blogs={blogs} Passing in the child */}
 
         </div>
     );
