@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 
-const BlogList = ({blogs, title}) => {
+const BlogList = ({blogs, title, handleDelete}) => {
 
 
     return (
