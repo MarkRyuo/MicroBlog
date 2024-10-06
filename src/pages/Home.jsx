@@ -2,7 +2,7 @@
 import { useState } from "react";
 import BlogList from "../components/BlogList";
 
-
+//* Parent
 const Home = () => {
 
     //* obj inside on array - Destructure the object
@@ -13,9 +13,14 @@ const Home = () => {
         { title: "Beyond to the Infinite: End ", body: "Lorem ipsum dolor sit amet, consectetur", author: "Niyari", id: 3 },
     ])
 
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id) ;
+        setblogs(newBlogs) ;
+    }
+
     return (
         <div className="home">
-            <BlogList blogs={blogs} title={"All Blogs"}/>  {/* Child - blogs={blogs} Passing in the child */}
+            <BlogList blogs={blogs} title={"All Blogs"} handleDelete={handleDelete}/>  {/* Child - blogs={blogs} Passing in the child */}
 
         </div>
     );
