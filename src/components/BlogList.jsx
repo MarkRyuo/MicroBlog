@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-
+//* Child
 const BlogList = ({blogs, title, handleDelete}) => {
 
 

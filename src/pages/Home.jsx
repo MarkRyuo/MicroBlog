@@ -2,7 +2,7 @@
 import { useState } from "react";
 import BlogList from "../components/BlogList";
 
-
+//* Parent
 const Home = () => {
 
     //* obj inside on array - Destructure the object
