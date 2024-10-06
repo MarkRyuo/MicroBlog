@@ -14,7 +14,7 @@ const Home = () => {
     ])
 
     const handleDelete = (id) => {
-        const newBlog = blogs.filter(blog => blogs.id !== id)
+        const newBlog = blogs.filter(blog => blog.id !== id)
         setblogs(newBlog)
     }
 
