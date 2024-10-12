@@ -47,11 +47,3 @@ export default Home;
 
 
 
-
-
-
-
-
-
-
-
