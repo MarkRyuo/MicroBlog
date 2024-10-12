@@ -40,10 +40,3 @@ export default Home;
 
 
 
-
-
-
-
-
-
-
