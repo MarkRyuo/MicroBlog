@@ -32,11 +32,3 @@ export default Home;
 
 
 
-
-
-
-
-
-
-
-
