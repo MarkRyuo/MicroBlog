@@ -75,7 +75,3 @@ export default Home;
 
 
 
-
-
-
-
